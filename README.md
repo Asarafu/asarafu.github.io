@@ -73,5 +73,4 @@ Combines deep technical infrastructure knowledge (networking, firewalls, system 
 *   **Project Management Certification** – UTS-MIT
 *   **Change Management for IT Professionals** — LinkedIn | Major: IT Change Management
 *  	**Strategic Project Risk Management** — LinkedIn | Major: Risk Management
-*	  **Prompt Engineering for AI Systems** — Dubai Centre for Artificial Intelligence | Major: AI Systems & Prompt Engineering
-
+*  	**Prompt Engineering for AI Systems** — Dubai Centre for Artificial Intelligence | Major: AI Systems & Prompt Engineering
