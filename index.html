@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashraf | Senior IT Support Specialist & Systems Engineer</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #7dd3fc;
+      --border: #334155;
+      --tag-bg: #0284c720;
+      --tag-text: #38bdf8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+    }
+
+    h1 { font-size: 2.5rem; font-weight: 700; color: #fff; letter-spacing: -0.5px; }
+    .subtitle { font-size: 1.25rem; color: var(--accent); font-weight: 600; margin-top: 0.25rem; }
+    .tags-header { margin-top: 0.75rem; color: var(--text-muted); font-size: 0.95rem; }
+
+    .contact-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .contact-bar a { color: var(--accent); text-decoration: none; }
+    .contact-bar a:hover { text-decoration: underline; }
+
+    section {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #fff;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    p { margin-bottom: 1rem; color: #cbd5e1; }
+
+    ul { list-style-type: none; }
+    li { position: relative; padding-left: 1.5rem; margin-bottom: 0.75rem; color: #cbd5e1; }
+    li::before { content: "▹"; position: absolute; left: 0; color: var(--accent); }
+
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+    
+    .card {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+    }
+
+    .card h3 { color: var(--accent); font-size: 1.1rem; margin-bottom: 0.5rem; }
+
+    .job { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+    .job:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+    .job-header { display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 0.75rem; }
+    .job-title { font-size: 1.2rem; font-weight: 600; color: #fff; }
+    .job-company { color: var(--accent); font-weight: 500; }
+    .job-date { color: var(--text-muted); font-size: 0.9rem; }
+
+    .tech-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .tag {
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border: 1px solid rgba(56, 189, 248, 0.2);
+    }
+
+    .btn-print {
+      display: inline-block;
+      background: var(--accent);
+      color: #0f172a;
+      padding: 0.6rem 1.2rem;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 1rem;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-print:hover { background: var(--accent-hover); }
+
+    @media print {
+      body { background: #fff; color: #000; padding: 0; }
+      section, header, .card { background: #fff; color: #000; border: 1px solid #ccc; box-shadow: none; }
+      h1, h2, .job-title { color: #000; }
+      .subtitle, .job-company, .card h3 { color: #0284c7; }
+      .btn-print { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <header>
+    <h1>ASHRAF</h1>
+    <div class="subtitle">SENIOR IT SUPPORT SPECIALIST & SYSTEMS ENGINEER</div>
+    <div class="tags-header">
+      End-to-End POS Implementation | Retail & Hospitality Systems | SIT/UAT & Multi-Branch Rollouts | Post-Go-Live Support | Enterprise IT Operations
+    </div>
+    <div class="contact-bar">
+      <span>📍 Dubai, UAE</span>
+      <span>📞 +971 50 2955 237</span>
+      <span>✉️ <a href="mailto:asharaf.info@gmail.com">asharaf.info@gmail.com</a></span>
+      <span>🔗 <a href="https://linkedin.com/in/ashraf-t-6a288b4b" target="_blank">LinkedIn Profile</a></span>
+      <span>🚗 Driving License: UAE & India</span>
+      <span>🗣️ Languages: English, Malayalam, Hindi, Arabic (Reading)</span>
+      <span>⚡ Availability: Immediate</span>
+    </div>
+  </header>
+
+  <!-- SUMMARY -->
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      Senior POS Implementation & IT Support Engineer with extensive experience orchestrating end-to-end POS architectures, multi-branch rollouts, and post-go-live technical support across retail and hospitality sectors in the UAE and Oman. Proven track record of managing full implementation lifecycles across 280+ outlets, integrating complex POS hardware/peripherals, engineering zero-latency kitchen printing networks, and leading SIT/UAT testing protocols. Combines deep technical expertise in SQL Server, C#, and custom POS software engineering with robust L1/L2/L3 escalation management, SLA enforcement, and vendor coordination. Additionally offers a solid foundation in enterprise IT infrastructure, systems administration, network security, and user access management to ensure complete operational continuity and business resilience.
+    </p>
+  </section>
+
+  <!-- KEY ACHIEVEMENTS -->
+  <section>
+    <h2>Key Achievements</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Multi-Branch POS Deployments</h3>
+        <p>Successfully implemented, configured, and rolled out enterprise POS solutions across 280+ retail and restaurant outlets throughout the UAE.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Software Engineering</h3>
+        <p>Designed and developed Nexus POS using C# and SQL Server, building cross-platform interfaces with .NET MAUI to modernize restaurant management workflows.</p>
+      </div>
+      <div class="card">
+        <h3>High-Availability Architecture</h3>
+        <p>Architected an offline/online hybrid database synchronization system that eliminated operational downtime and prevented data loss during network dropouts.</p>
+      </div>
+      <div class="card">
+        <h3>Zero-Latency Kitchen Automation</h3>
+        <p>Engineered ESC/POS thermal printing routines, Kitchen Display Systems (KDS), and automated KOT networks to achieve zero-latency order routing in high-volume venues.</p>
+      </div>
+      <div class="card">
+        <h3>Pre-Deployment & Migration Oversight</h3>
+        <p>Led System Integration Testing (SIT) and User Acceptance Testing (UAT) for enterprise POS releases and database schema migrations, ensuring zero-downtime rollouts.</p>
+      </div>
+      <div class="card">
+        <h3>Helpdesk & Ticketing Optimization</h3>
+        <p>Developed an internal Order Tracking System (OTS), significantly improving support team response times, ticket tracking, and SLA enforcement across regional accounts.</p>
+      </div>
+      <div class="card">
+        <h3>Enterprise IT Infrastructure & Security</h3>
+        <p>Managed corporate security protocols, firewall policies, and automated backup routines across multi-division trading and food production groups in Oman.</p>
+      </div>
+      <div class="card">
+        <h3>Vendor & Asset Lifecycle Management</h3>
+        <p>Managed hardware procurement, vendor maintenance contracts, and asset reclamation lifecycles to maximize equipment uptime across retail, trading, and food production operations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE & TECHNICAL COMPETENCIES -->
+  <section>
+    <h2>Core & Technical Competencies</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>POS Hardware & Peripherals</h3>
+        <p>EPOS Systems, Cash Drawers, Thermal Printers (ESC/POS), Kitchen Display Systems (KDS), Kitchen Order Tokens (KOT), Barcode Scanners, Payment Terminals (EFTPOS), Pole Displays.</p>
+      </div>
+      <div class="card">
+        <h3>Hospitality & Retail Workflows</h3>
+        <p>Back-Office Management Systems, Multi-Branch Inventory Control, Zero-Latency Order Routing, ERP Data Integration.</p>
+      </div>
+      <div class="card">
+        <h3>Implementation & Project Delivery</h3>
+        <p>Requirements Gathering, Pre-Deployment Planning, Multi-Branch Rollouts, Go-Live Readiness, SIT/UAT Testing, Database Schema Migration.</p>
+      </div>
+      <div class="card">
+        <h3>Technical Support & Operations</h3>
+        <p>L1/L2/L3 Technical Support, Incident Management Lifecycle, SLA Compliance, Remote Troubleshooting (RDP, AnyDesk, TeamViewer), Staff Training & Adoption.</p>
+      </div>
+      <div class="card">
+        <h3>Systems & Infrastructure</h3>
+        <p>Windows OS (7, 10, 11), GPO, User Permissions, MS Office Administration, Basic Networking (TCP/IP, DNS, DHCP), Firewalls, Antivirus & Security.</p>
+      </div>
+      <div class="card">
+        <h3>Software & Databases</h3>
+        <p>C#, .NET Framework, XAML, Windows Forms, .NET MAUI, ESC/POS Commands, Microsoft SQL Server, SQLite, Database Indexing, Hybrid Synchronization.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNICAL PROJECTS -->
+  <section>
+    <h2>Technical Project Highlights</h2>
+    <div class="card" style="margin-bottom: 1rem;">
+      <h3>Nexus POS — Enterprise Restaurant Management Platform</h3>
+      <p>Engineered a comprehensive restaurant management platform featuring POS checkout, back-office administration, Kitchen Display System (KDS), receipt printing engine, and sales analytics.</p>
+      <div class="tech-tags">
+        <span class="tag">C#</span><span class="tag">.NET Framework</span><span class="tag">SQL Server</span><span class="tag">SQLite</span><span class="tag">ESC/POS Commands</span><span class="tag">.NET MAUI</span><span class="tag">Windows Desktop</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>OTS (Order Tracking System) — Internal Helpdesk Platform</h3>
+      <p>Developed an internal helpdesk ticketing system using C# Windows Forms and SQL Server to streamline SLA tracking, incident logging, resolution monitoring, and support team performance.</p>
+      <div class="tech-tags">
+        <span class="tag">C#</span><span class="tag">Windows Forms</span><span class="tag">SQL Server</span><span class="tag">T-SQL</span><span class="tag">OTS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL EXPERIENCE -->
+  <section>
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">Senior IT Support Specialist & Systems Engineer</div>
+          <div class="job-company">Stockey POS Software Technology LLC — Dubai, UAE</div>
+        </div>
+        <div class="job-date">Feb 2022 – Apr 2026</div>
+      </div>
+      <ul>
+        <li><strong>Full Implementation Lifecycle:</strong> Managed end-to-end deployment across high-volume restaurant and retail outlets in the UAE, handling initial requirements gathering, stakeholder alignment, pre-deployment planning, and risk mitigation.</li>
+        <li><strong>Custom POS Engineering:</strong> Designed and developed a complete restaurant POS ecosystem (Nexus POS) using C#, SQL Server, SQLite, and .NET MAUI to support POS operations, back-office management, and kitchen display workflows.</li>
+        <li><strong>Database & Sync Engineering:</strong> Architected multi-branch database synchronization relying on an offline/online hybrid model to maintain system uptime and prevent data loss during network dropouts.</li>
+        <li><strong>Hardware & Peripheral Integration:</strong> Integrated thermal printers, barcode scanners, payment terminals, and pole displays while engineering ESC/POS printing routines for zero-latency kitchen order routing.</li>
+        <li><strong>Quality Assurance & Migration Control:</strong> Oversaw System Integration Testing (SIT) and User Acceptance Testing (UAT) for POS application updates, third-party integrations, and database migrations prior to multi-branch deployment.</li>
+        <li><strong>Escalation & Vendor SLA Management:</strong> Coordinated directly with business stakeholders and third-party IT vendors to resolve complex technical issues, software bugs, and hardware failures within agreed SLAs.</li>
+        <li><strong>Post-Live Support & Training:</strong> Delivered comprehensive client training sessions and led L1/L2/L3 post-implementation technical support to ensure staff adoption and long-term operational continuity.</li>
+        <li><strong>Infrastructure & User Administration:</strong> Managed user account permissions, Office setups, local network connectivity, firewall policies, and secure remote access tools (AnyDesk, TeamViewer, RDP) across client workstations.</li>
+      </ul>
+      <div class="tech-tags">
+        <span class="tag">C#</span><span class="tag">.NET Framework</span><span class="tag">SQL Server</span><span class="tag">SQLite</span><span class="tag">XAML</span><span class="tag">.NET MAUI</span><span class="tag">ESC/POS</span><span class="tag">POS Hardware</span><span class="tag">Hybrid Sync</span><span class="tag">L1/L2/L3 Support</span><span class="tag">SIT & UAT</span>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">Technical Support In-Charge</div>
+          <div class="job-company">Omega POS Technology LLC — Dubai, UAE</div>
+        </div>
+        <div class="job-date">Mar 2014 – Nov 2021</div>
+      </div>
+      <ul>
+        <li><strong>Team Leadership & Incident Operations:</strong> Supervised and mentored onsite and remote support engineering teams across regional clients to ensure rapid incident resolution and operational continuity.</li>
+        <li><strong>Helpdesk Tool Development:</strong> Developed an internal Order Tracking System (OTS) using C# Windows Forms and SQL Server to monitor support requests, log troubleshooting steps, track SLAs, and significantly improve overall resolution times.</li>
+        <li><strong>On-Site Deployment & Training:</strong> Installed and configured POS systems, workstations, printers, scanners, network routers, and basic firewalls while conducting comprehensive client-training sessions.</li>
+        <li><strong>Systems & Account Permissions:</strong> Managed system account permissions, Office suite environment access, and central head office databases to ensure data consistency, security, and continuous system availability.</li>
+        <li><strong>Asset & Vendor Lifecycle:</strong> Maintained hardware equipment inventories and coordinated with external vendors for hardware replacements, warranty processing, and maintenance contracts.</li>
+        <li><strong>ERP Support:</strong> Full cycle of RMS-ERP (Front office, Back office, Inventory, Accounts, reservation, user attendance etc.) implementation and production level support.</li>
+      </ul>
+      <div class="tech-tags">
+        <span class="tag">C#</span><span class="tag">Windows Forms</span><span class="tag">Oracle DB</span><span class="tag">OTS</span><span class="tag">Server-Nodes</span><span class="tag">Firewalls</span><span class="tag">RMS-ERP</span><span class="tag">Asset Lifecycle</span>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">POS Technician & Software Support</div>
+          <div class="job-company">Prowess Technologies LLC — Dubai, UAE</div>
+        </div>
+        <div class="job-date">Dec 2009 – Jan 2014</div>
+      </div>
+      <ul>
+        <li><strong>POS Terminal Deployment:</strong> Installed, configured, and maintained POS & Desktop hardware and software for restaurants, cafeterias, and retail outlets.</li>
+        <li><strong>Kitchen Printing & Display Networks:</strong> Configured multi-kitchen display systems (KDS) and thermal printing networks within hospitality operational environments.</li>
+        <li><strong>Network & Security Setup:</strong> Set up network printers, IP addresses, user role permissions, security settings, antivirus software, and back-office POS configurations. Assembled PC hardware based on customer requirements.</li>
+        <li><strong>Technical Troubleshooting:</strong> Performed technical troubleshooting for proprietary POS software, network connections, and underlying SQL database systems.</li>
+      </ul>
+      <div class="tech-tags">
+        <span class="tag">Proprietary POS</span><span class="tag">SQL Databases</span><span class="tag">ESC/POS</span><span class="tag">KDS</span><span class="tag">EFTPOS</span><span class="tag">TCP/IP</span>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">IT System Administrator</div>
+          <div class="job-company">Aseel Trading L.L.C (Trading & Food Production Group) — Oman</div>
+        </div>
+        <div class="job-date">Aug 2005 – Aug 2009</div>
+      </div>
+      <ul>
+        <li><strong>Enterprise Server & Infrastructure Admin:</strong> Managed enterprise IT infrastructure, central servers (MS Server 2003), and local/wide networks for a diversified trading and food production group (restaurants, supermarkets, and processing facilities), maintaining high uptime across all business units.</li>
+        <li><strong>Security Controls:</strong> Administered user accounts, AD, email/MS Office configurations, corporate firewalls, automated backup routines, and IT security protocols to safeguard corporate data across all systems.</li>
+        <li><strong>Maintenance & Endpoint Optimization:</strong> Executed regular OS/software patching, hardware maintenance, diagnostics, antivirus deployment, and performance optimization across enterprise desktop and laptop hardware.</li>
+        <li><strong>Internal Software Engineering:</strong> Developed internal Windows-based business applications to streamline operational workflows and data handling.</li>
+        <li><strong>Procurement & General IT Operations:</strong> Coordinated vendor maintenance contracts, managed the procurement and reclamation lifecycle for IT hardware equipment, provided end-user technical support, and supported CCTV, access control, and attendance systems.</li>
+      </ul>
+      <div class="tech-tags">
+        <span class="tag">Windows Server</span><span class="tag">TCP/IP</span><span class="tag">DNS/DHCP</span><span class="tag">Firewalls</span><span class="tag">Custom WinApps</span><span class="tag">IT Procurement</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTIFICATIONS -->
+  <section>
+    <h2>Education & Professional Certifications</h2>
+    <ul>
+      <li><strong>Post Graduate Diploma in Computer Applications (PGDCA)</strong> — Gate Computers | <em>Major: Computer Applications & Database Management</em></li>
+      <li><strong>B.Sc. in Computer Science</strong> — Bharati Vidyapeeth | <em>Major: Computer Science</em></li>
+      <li><strong>Advanced Hardware & Networking (AHN)</strong> — Techmosys India Ltd. | <em>Major: Hardware & Networking</em></li>
+      <li><strong>Microsoft Certified IT Professional (MCITP)</strong> — Microsoft | <em>Major: Windows Server Administration</em></li>
+      <li><strong>Project Management Certification</strong> — UTS-MIT | <em>Major: Project Management (PMP Frameworks)</em></li>
+      <li><strong>Change Management for IT Professionals</strong> — LinkedIn | <em>Major: IT Change Management</em></li>
+      <li><strong>Strategic Project Risk Management</strong> — LinkedIn | <em>Major: Risk Management</em></li>
+      <li><strong>Prompt Engineering for AI Systems</strong> — Dubai Centre for Artificial Intelligence | <em>Major: AI Systems & Prompt Engineering</em></li>
+    </ul>
+  </section>
+
+  <button class="btn-print" onclick="window.print()">🖨️ Print / Save as PDF</button>
+
+</div>
+
+</body>
+</html>
