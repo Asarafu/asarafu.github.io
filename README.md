@@ -1,12 +1,13 @@
 # Ashraf | Senior IT Support Specialist & Systems Engineer
 
-🌐 **Live Website Portfolio:** [asarafu.github.io](https://asarafu.github.io)  
+🌐 **Live Web Portfolio:** [asarafu.github.io](https://asarafu.github.io)  
 💼 **LinkedIn:** [linkedin.com/in/ashraf-t-6a288b4b](https://linkedin.com/in/ashraf-t-6a288b4b)  
-✉️ **Email:** asharaf.info@gmail.com
+✉️ **Email:** asharaf.info@gmail.com  
+📍 **Location:** Dubai, UAE
 
 ---
 
-## 👨‍💻 About Me
-Senior POS Implementation & IT Support Engineer based in Dubai, UAE, specializing in end-to-end POS architectures, enterprise IT operations, multi-branch rollouts, and custom software development (C#, SQL Server, .NET MAUI).
+## 👨‍💻 Overview
+Senior POS Implementation & IT Support Engineer with extensive experience orchestrating end-to-end POS architectures, multi-branch rollouts, and custom software engineering (C#, SQL Server, .NET MAUI).
 
-👉 **[Click here to view my full interactive 3-page web portfolio](https://asarafu.github.io)**
+👉 **[Click here to view my full interactive web portfolio](https://asarafu.github.io)**
